@@ -1,0 +1,26 @@
+{
+    "name": "reliese/component-dependency",
+    "description": "Dependencies Component",
+    "keywords": ["reliese", "component", "dependency"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Cristian Llanos",
+            "email": "hello@cristianllanos.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/reliese/php-component-dependency/issues",
+        "source": "https://github.com/reliese/php-component-dependency"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reliese\\Component\\Dependency\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
